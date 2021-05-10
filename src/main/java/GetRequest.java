@@ -17,7 +17,7 @@ public class GetRequest {
 
     private void sendGet() throws Exception {
 
-        String url = "https://api.nasa.gov/planetary/apod?api_key=GAALaPSNtLGduRozfooCNXYpNfdVDP7uMcw63WMx";
+        String url = "https://api.nasa.gov/planetary";
 
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
